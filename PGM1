@@ -1,0 +1,10 @@
+ENVIRONMENT DIVISION.                                                   00010001
+PROGRAM-ID. HELLO.                                                      00020001
+DATA DIVISION                                                           00030001
+WORKING-STORAGE SECTION                                                 00031001
+01 MISC-VAR.                                                            00032001
+ 05 WS-NAME     PIC X(10).                                              00033001
+PROCEDURE DIVISION.                                                     00040001
+0000-MAIN-PARA.                                                         00050001
+ DISPLAY "HELLO WORLD".                                                 00110001
+ STOP RUN.                                                              00120001
